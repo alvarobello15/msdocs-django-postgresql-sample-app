@@ -36,7 +36,7 @@ DATABASES = {
      }
  }
 
- CACHES = {
+CACHES = {
          "default": {  
              "BACKEND": "django_redis.cache.RedisCache",
              "LOCATION": os.environ['AZURE_REDIS_CONNECTIONSTRING'],
